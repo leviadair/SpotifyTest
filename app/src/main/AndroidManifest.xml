@@ -20,7 +20,9 @@
         <!-- Needed for LoginActivity to work -->
         <activity
             android:name="com.spotify.sdk.android.authentication.LoginActivity"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="spg01.SpotifyTest.PlaybackActivity" />
+        <activity android:name="spg01.SpotifyTest.SongActivity" />
     </application>
 
 </manifest>

@@ -35,12 +35,13 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
-    compile 'com.spotify.android:auth:1.0.0-alpha'
     compile 'com.spotify.sdk:spotify-player-24-noconnect-2.20b@aar'
 
+
+    compile 'com.spotify.android:auth:1.0.0-alpha'
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    testCompile 'junit:junit:4.12'
-
     compile 'com.github.kaaes:spotify-web-api-android:0.4.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    testCompile 'junit:junit:4.12'
 }
